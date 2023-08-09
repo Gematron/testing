@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+}
+
+p:hover {
+    font-size: 20px
+}
+
+a:active {
+    color: green;
+}
+
+input:active {
+    display: none;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: opacity 0.3s ease;
+}
+
+.square:hover {
+    opacity: 0;
+}
